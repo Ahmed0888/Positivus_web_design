@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Design Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <img src="./assets/logo-positivus.png" alt="Positivus Logo" />
+        <!-- <span>Positivus</span> -->
+      </div>
+
+      <nav class="nav-links">
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Use Cases</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+      </nav>
+
+      <div class="quote-button">
+        <a href="#">Request a quote</a>
+      </div>
+    </header>
+    <section class="herosection">
+      <div class="herocontainer">
+        <div class="txt">
+          <h1>Navigating the digital landscape for success</h1>
+          <p>
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+          <button>Book a consultation</button>
+        </div>
+        <div class="img-holder">
+          <img src="./assets/hero section specker.jpeg" alt="Megaphone image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-section">
+      <div class="logos-container">
+        <img src="./assets/amazon.png" alt="amazon" />
+        <img src="./assets/dribble.png" alt="dribble" />
+        <img src="./assets/hubspot.png" alt="hubspot" />
+        <img src="./assets/notion.png" alt="notion" />
+        <img src="./assets/netflix.png" alt="netflix" />
+        <img src="./assets/zoom.png" alt="zoom" />
+      </div>
+    </section>
+    <div class="services">
+      <div class="servicebox">Services</div>
+      <div class="service-text">
+        At our digital marketing agency, we offer a range of services to help
+        businesses grow and succeed online. These services include:
+      </div>
+    </div>
+    
+      <div class="services-grid">
+        <div class="service-card">
+            <h3 class="service-title">Search engine optimization</h3>
+    
+            <div class="learn-more">
+                <img src="./assets/learn more arrow.png" class="learn-more-arrow">
+                <span>Learn more</span>
+            </div>
+        </div>
+       
+        <div class="service-card green">
+          <h3 class="service-title">Pay-per-click advertising</h3>
+          
+          <div class="learn-more">
+              <img src="./assets/learn more arrow.png" class="learn-more-arrow">
+              <span>Learn more</span>
+          </div>
+      </div>
+  
+      </div>
+    </div>
+    <section class="process">
+      <div class="container">
+          <div class="section-header">
+              <div class="tag">Our Working Process</div>
+              <p>Step-by-Step Guide to Achieving Your Business Goals</p>
+          </div>
+          
+          <div class="process-steps">
+              <div class="process-step active">
+                  <div class="step-header">
+                      <div class="step-number">01</div>
+                      <div class="step-title">Consultation</div>
+                      <button class="toggle-btn minus">-</button>
+                  </div>
+                  <div class="step-content">
+                      <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                  </div>
+              </div>
+              
+              <div class="process-step">
+                  <div class="step-header">
+                      <div class="step-number">02</div>
+                      <div class="step-title">Research and Strategy Development</div>
+                      <button class="toggle-btn">+</button>
+                  </div>
+              </div>
+              
+              <div class="process-step">
+                  <div class="step-header">
+                      <div class="step-number">03</div>
+                      <div class="step-title">Implementation</div>
+                      <button class="toggle-btn">+</button>
+                  </div>
+              </div>
+              
+              <div class="process-step">
+                  <div class="step-header">
+                      <div class="step-number">04</div>
+                      <div class="step-title">Monitoring and Optimization</div>
+                      <button class="toggle-btn">+</button>
+                  </div>
+              </div>
+              
+              <div class="process-step">
+                  <div class="step-header">
+                      <div class="step-number">05</div>
+                      <div class="step-title">Reporting and Communication</div>
+                      <button class="toggle-btn">+</button>
+                  </div>
+              </div>
+              
+              <div class="process-step">
+                  <div class="step-header">
+                      <div class="step-number">06</div>
+                      <div class="step-title">Continual Improvement</div>
+                      <button class="toggle-btn">+</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact -->
+<!-- Contact -->
+<section class="contact">
+  <div class="container">
+      <div class="section-header">
+          <div class="tag">Contact Us</div>
+          <p>Connect with Us! Let's Discuss Your Digital Marketing Needs</p>
+      </div>
+      
+      <div class="contact-container">
+          <div class="contact-form">
+              <div class="contact-options">
+                  <div class="option">
+                      <span class="circle-icon">◉</span>
+                      <span>Say Hi</span>
+                  </div>
+                  <div class="option">
+                      <span class="circle-icon">◉</span>
+                      <span>Get a Quote</span>
+                  </div>
+              </div>
+              
+              <form>
+                  <div class="form-group">
+                      <label for="name">Name*</label>
+                      <input type="text" id="name" placeholder="Name">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="email">Email*</label>
+                      <input type="email" id="email" placeholder="Email">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="message">Message*</label>
+                      <textarea id="message" placeholder="Message"></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-dark">Send Message</button>
+              </form>
+          </div>
+          <div class="contact-image">
+              <div class="star-design"></div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+    <!-- <br><br>
+    <footer>
+        <div class="footer">
+            <p>Copyright 2023 Positivus</p>
+            <p>Designed by <a href="https://www.figma.com/file/6Q">
+                </p>
+
+        </div>
+    </footer> -->
+  </body>
+</html>
