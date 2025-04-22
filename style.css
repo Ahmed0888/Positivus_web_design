@@ -7,7 +7,6 @@
 
 body {
   background-color: #fff;
-  padding: 2px;
 }
 
 .navbar {
@@ -460,8 +459,6 @@ footer {
   background-color: #191a23;
   color: white;
   padding: 60px 0 30px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .footer-top {
